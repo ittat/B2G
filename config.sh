@@ -99,7 +99,7 @@ case "$1" in
 	;;
 	
 "oneplus3")
-	echo PRODUCT_NAME=aosp_oneplus3  >> .tmp-config &&
+	echo PRODUCT_NAME=b2g_oneplus3  >> .tmp-config &&
 	echo TARGET_NAME=oneplus3  >> .tmp-config &&
 	repo_sync $1
 	;;
